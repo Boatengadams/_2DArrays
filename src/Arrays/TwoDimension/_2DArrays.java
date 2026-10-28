@@ -1,3 +1,4 @@
+// Question: How can a program create, access, and display two-dimensional arrays?
 package Arrays.TwoDimension;
 
 import java.util.Arrays;
@@ -10,7 +11,7 @@ import java.util.Arrays;
 // ragged array is 2D array with rows of different lenght
 public class _2DArrays {
 
-    static void main(String[] args) {
+    public static void main(String[] args) {
         int [][] numbers= new int [5][3];
         numbers[0][0] = 5;
         numbers[0][1] = 8;
